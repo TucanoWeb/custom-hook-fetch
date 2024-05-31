@@ -21,33 +21,41 @@ Custom hooks in React allow you to encapsulate and reuse stateful logic, making 
 **1.** Create the `useData` Hook
 The useData hook uses the useFetch hook to fetch data from an API endpoint.
 
+```bash
 ├── src
 │ ├── hooks
 │ │ ├── useData
 └── .gitignore
+```
 
 **2.** Define the `useFetch` Hook
 The useFetch hook handles making API requests, managing the loading state, and caching.
 
+```bash
 ├── src
 │ ├── hooks
 │ │ ├── useFetch
 └── .gitignore
+```
 
 **3.** Configure Axios for Caching and Authentication
 The `api` module configures Axios to handle caching and authentication tokens
 
+```bash
 ├── src
 │ ├── api
 └── .gitignore
+```
 
 **4.** Implement Cache Management
 The `cache.ts` module handles storing and retrieving cached responses.
 
+```bash
 ├── src
 │ ├── api
-│ | ├── cache.ts
+│   ├── cache.ts
 └── .gitignore
+```
 
 ### Conclusion
 
